@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant Disease Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌿 Plant Disease Detection</h1>
+
+    <!-- Image Upload -->
+    <input type="file" id="imageInput" accept="image/*" onchange="previewImage()">
+
+    <!-- Image Preview -->
+    <div class="preview-box">
+        <img id="previewImage" src="" alt="Image Preview">
+    </div>
+
+    <!-- Predict Button -->
+    <button onclick="predict()">Predict Disease</button>
+
+    <!-- Result -->
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

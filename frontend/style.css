@@ -1,0 +1,38 @@
+.container {
+    width: 420px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.preview-box {
+    margin: 15px 0;
+}
+
+.preview-box img {
+    display: none;
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f0f8ff;
+    border-radius: 5px;
+}

@@ -1,0 +1,6 @@
+flask
+flask-cors
+torch
+torchvision
+ultralytics
+opencv-python-headless
